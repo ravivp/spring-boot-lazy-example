@@ -51,7 +51,13 @@
 	            <groupId>com.google.cloud.tools</groupId>
 		            <artifactId>jib-maven-plugin</artifactId>
 			            <version>2.0.0</version>
-            </plugin>				    
+            </plugin>	
+		
+		<plugin>
+     <groupId>com.google.cloud.tools</groupId>
+     <artifactId>appengine-maven-plugin</artifactId>
+     <version>2.2.0</version>
+   </plugin>
         </plugins>
     </build>
 
